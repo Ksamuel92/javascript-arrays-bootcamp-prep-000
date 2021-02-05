@@ -28,16 +28,16 @@ addElementToEndOfArray = (arr, element) => {
     return arr[index];
   }
   
-  destructivelyRemoveElementFromBeginningOfArray = (arr) => {
-   return arr.shift();
+  destructivelyRemoveElementFromBeginningOfArray = (array) => {
+   return array.shift();
   }
   
-  removeElementFromBeginningOfArray = (arr) => {
-  return newArray =  arr.slice(0,1);
+  removeElementFromBeginningOfArray = (array) => {
+  return newArray =  array.slice(0,1);
   }
   
-  destructivelyRemoveElementFromEndOfArray = (arr) => {
-    return arr.pop();
+  destructivelyRemoveElementFromEndOfArray = (array) => {
+    return array.pop();
   }
   
   removeElementFromEndOfArray = (arr) => {
