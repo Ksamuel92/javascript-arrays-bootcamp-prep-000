@@ -29,11 +29,11 @@ addElementToEndOfArray = (arr, element) => {
   }
   
   destructivelyRemoveElementFromBeginningOfArray = (array) => {
-   return array.shift();
+   return newArray = array.shift();
   }
   
   removeElementFromBeginningOfArray = (array) => {
-  return newArray =  array.slice(0,1);
+  return newArray =  array.slice(0,0);
   }
   
   destructivelyRemoveElementFromEndOfArray = (array) => {
