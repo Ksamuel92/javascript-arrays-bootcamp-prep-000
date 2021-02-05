@@ -29,7 +29,8 @@ addElementToEndOfArray = (arr, element) => {
   }
   
   destructivelyRemoveElementFromBeginningOfArray = (array) => {
-   return array.shift();
+    array.shift();
+    return array;
   }
   
   removeElementFromBeginningOfArray = (array) => {
