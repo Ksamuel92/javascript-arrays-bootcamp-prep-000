@@ -33,7 +33,7 @@ addElementToEndOfArray = (arr, element) => {
   }
   
   removeElementFromBeginningOfArray = (array) => {
-  return newArray =  array.slice(0,0);
+  return newArray =  array.slice(0,);
   }
   
   destructivelyRemoveElementFromEndOfArray = (array) => {
