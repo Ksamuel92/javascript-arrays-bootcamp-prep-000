@@ -37,7 +37,8 @@ addElementToEndOfArray = (arr, element) => {
   }
   
   destructivelyRemoveElementFromEndOfArray = (array) => {
-    return newArray = array.pop();
+    array.pop();
+    return array;
   }
   
   removeElementFromEndOfArray = (arr) => {
